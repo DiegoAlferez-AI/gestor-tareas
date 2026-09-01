@@ -1,0 +1,4 @@
+1. ¿Cuál es la diferencia entre Git y GitHub?
+Respuesta: Git es para el control de versiones y Github es una plataforma que te permite compartir o conectarse de manera remota al repositorio permitiendo el trabajo en colaboración.
+2. ¿Qué función cumple el área de stage?
+Respuesta: 
