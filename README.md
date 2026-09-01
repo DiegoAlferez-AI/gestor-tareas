@@ -10,4 +10,5 @@ Preparar la estructura inicial de un proyecto utilizando control de versiones.
 - GitHub
 - ## Autor 
 - Diego Emilio Alferez Vallejo
-- 
+- ## Estado del proyecto
+Proyecto en etapa inicial.
