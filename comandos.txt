@@ -1,0 +1,58 @@
+Historial de comandos 
+
+1. Creación de la estructura base del proyecto
+mkdir gestor_tareas
+cd gestor_tareas
+mkdir docs src
+touch README.md .gitignore requirements.txt LICENSE.txt docs/descripcion.md src/main.py
+
+2. Configuración y activación del entorno virtual de Python
+python -m venv .venv
+source .venv/bin/activate
+python --version
+
+3. Inicialización del repositorio Git local
+git init
+git status
+
+4. Primer commit: Estructura inicial
+git add .
+git status
+git commit -m "CRea estructura inicial del proyecto"
+
+5. Segundo commit: Actualización del README.md
+git status
+git add README.md
+git commit -m "Actualiza documentación del proyecto"
+
+6. Tercer commit: Documentación de funcionalidades
+git status
+git add docs/descripcion.md
+git commit -m "Documenta funcionalidades previstas"
+
+7. Cuarto commit: Versión inicial
+git status
+git add README.md
+git commit -m "Versión 2026/09/01-01"
+
+8. Vinculación y publicación en el repositorio remoto (GitHub)
+git branch -M main
+git remote add origin https://github.com/DiegoAlferez/gestor_tareas.git
+git remote -v
+git push -u origin main
+
+9. Actualizaciones posteriores y sincronización
+git status
+git add .
+git commit -m "Actualización 2026/09/01-02"
+git push
+
+git status
+git add .
+git commit -m "Actualización 2026/09/01-04"
+git push
+
+git status
+git add .
+git commit -m "Actualización 2026/09/01-05"
+git push
