@@ -3,8 +3,14 @@ Respuesta: Git es para el control de versiones y Github es una plataforma que te
 2. ¿Qué función cumple el área de stage?
 Respuesta: Sirve parar preparar y confirmar que archivos se incluirán en la siguiente versión o commit antes de guardarlos definitivamente.
 3. ¿Para qué sirve un commit?
-Respuesta: 
-
-
+Respuesta: Sirve para guardar una snapshot de los cambios preparados en el historial del proyecto con un identificador único y hasta le puedes poner descripción.
+ 4. ¿Cuál es la función del archivo .gitignore?
+Respuesta: Especificar que archivos o carpetas que Git debe ignorar para que no se suban al repositorio.
+5. ¿Por qué no debe almacenarse normalmente el entorno virtual .venv en GitHub?
+Respuesta: Por que contiene cosas especificas del sistema operativo y la computadora y también que no haya archivos innecesarios.
+6. ¿Qué relación existe entre el repositorio local y el repositorio remoto?
+Respuesta: El repositorio local está en la computadora de trabajo del desarrollador para hacer versiones nuevas y probar de forma aislada y el remoto actua como respaldo para colaborar con otros o para sincronización.
+7. ¿Qué diferencia existe entre ejecutar commit y ejecutar push?
+Respuesta: commit guarda los cambios localmente en el historial de tu propia máquina sin requerir conexión a internet, mientras que push sube y sincroniza esos commits guardados hacia el repositorio remoto.
 
 
